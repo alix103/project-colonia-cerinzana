@@ -325,3 +325,22 @@ div#quienes-somos{
     color: white;
     font-size: 35px;
 }
+
+
+/*responsive*/
+@media (min-width: 375px) and (max-width: 654px) {
+    header{
+        height: 130px;
+    }
+    
+    .logo{
+        width:60%; 
+        border-radius: 50%;
+        margin-left: 1rem;
+    }
+    
+    .menu{
+        display:block;
+    }   
+    
+}

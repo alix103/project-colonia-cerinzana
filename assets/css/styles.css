@@ -253,6 +253,27 @@ div#quienes-somos{
     margin-top: 1rem;
 }
 
+/*documentos*/
+.documentos li{
+    list-style-type: none;
+    font-size: 25px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
+
+.documentos p{
+    font-size: 25px;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    margin-right: 6rem;
+}
+
+.documentos a{
+    color: blue;
+    text-decoration: none;
+}
+
 /*footer*/
 .footer{
     width: 100%;

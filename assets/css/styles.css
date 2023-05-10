@@ -335,14 +335,17 @@ div#quienes-somos{
     }
     
     .logo{
-        margin-left: 2rem;
+        width: 90px;
+        margin-left: 1.5rem;
+        border-radius: 50%;
+        margin-top: 0.1rem;
     }
     
     .menu{
-        margin-left: -10rem;
+        margin-left: -1rem;
         align-items: center;
         display:block;
-        margin-right: 15rem;
+       /* margin-right: 25rem;*/
     }
     
     nav li ul{
@@ -385,4 +388,35 @@ div#quienes-somos{
           transform: translate3d(calc(-100% * 3), 0, 0);
         }
     }
+
+    .nosotros h2, h3{
+        margin-top: 4rem;
+        font-size: 45px;
+    }
+    
+    .nosotros p{
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    #logo1{
+        width: 8.5rem;
+    }
+
+    .documentos li{
+        font-size: 25px;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        margin-right: 3rem;
+    }
+    
+    .documentos p{
+        font-size: 25px;
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        margin-right: 3rem;
+    }
+    
+
 }

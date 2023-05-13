@@ -217,13 +217,34 @@ input[id="3"]:checked~.slide{
 input[id="3"]:checked~.pagination .pagination-item[for="3"]{
     background-color: #fff;
 }
+
+input[id="4"]:checked~.slide{
+    animation: none;
+    transform: translate(calc(-100% * 2), 0, 0);
+}
+  
+input[id="4"]:checked~.pagination .pagination-item[for="3"]{
+    background-color: #fff;
+}
+
+input[id="5"]:checked~.slide{
+    animation: none;
+    transform: translate(calc(-100% * 2), 0, 0);
+}
+  
+input[id="5"]:checked~.pagination .pagination-item[for="3"]{
+    background-color: #fff;
+}
   
 @keyframes autoplay{
     14.28%{
       transform: translate3d(calc(-100% * 0), 0, 0);
     }
+    40.54%{
+        ransform: translate3d(calc(-100% * 1), 0, 0);
+    }
     90%{
-      transform: translate3d(calc(-100% * 1), 0, 0);
+      transform: translate3d(calc(-100% * 3), 0, 0);
     }
 }
 

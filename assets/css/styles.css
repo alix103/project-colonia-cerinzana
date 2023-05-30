@@ -64,13 +64,14 @@ nav li:hover>ul{
     display:block;
 }
 
-.menu a{
+.menu a, .style-doc{
     text-decoration:none;
     font-size:18px;
     color: #fff;
     width: 200px;
     text-align: center;
     font-weight: 600;
+    cursor: pointer;
 }
   
   
@@ -378,7 +379,7 @@ div#quienes-somos{
         left:28px;
     }
     
-    .menu a{
+    .menu a, .style-doc{
         font-size:15px;
         width: 150px;
     }   
@@ -438,6 +439,21 @@ div#quienes-somos{
         margin-top: 1rem;
         margin-right: 3rem;
     }
-    
+
+    .footer{
+        display: block;
+    }
+
+    .fund{
+        color: transparent;
+    }
+
+    .red{
+        margin-top: -6rem;
+    }
+
+    #log{
+        margin-bottom: 2rem;
+    }
 
 }
